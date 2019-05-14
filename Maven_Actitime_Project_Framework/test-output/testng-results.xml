@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9141" started-at="2019-05-13T10:43:53Z" finished-at="2019-05-13T10:44:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9141" started-at="2019-05-13T10:43:53Z" finished-at="2019-05-13T10:44:02Z">
+      <class name="example.hi">
+        <test-method status="PASS" signature="configBeforeSuite()[pri:0, instance:example.hi@1ae369b7]" name="configBeforeSuite" is-config="true" duration-ms="6" started-at="2019-05-13T16:13:53Z" finished-at="2019-05-13T16:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeSuite -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:example.hi@1ae369b7]" name="configBC" is-config="true" duration-ms="4280" started-at="2019-05-13T16:13:53Z" finished-at="2019-05-13T16:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:example.hi@1ae369b7]" name="configBM" is-config="true" duration-ms="2082" started-at="2019-05-13T16:13:57Z" finished-at="2019-05-13T16:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="test()[pri:0, instance:example.hi@1ae369b7]" name="test" duration-ms="504" started-at="2019-05-13T16:13:59Z" finished-at="2019-05-13T16:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:example.hi@1ae369b7]" name="configAM" is-config="true" duration-ms="168" started-at="2019-05-13T16:14:00Z" finished-at="2019-05-13T16:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:example.hi@1ae369b7]" name="configAC" is-config="true" duration-ms="2098" started-at="2019-05-13T16:14:00Z" finished-at="2019-05-13T16:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- example.hi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

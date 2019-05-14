@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="actitime" thread-count="2" parallel="tests">
+	<test name="TestRunner1">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.actitime.UserDataTest.UserDataTest" />
+		</classes>
+	</test>
+
+	<test name="TestRunner2">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.actitime.UserDataTest.UserDataTest" />
+		</classes>
+	</test> 
+</suite> 

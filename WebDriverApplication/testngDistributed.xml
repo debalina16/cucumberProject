@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="actitime" thread-count="2" parallel="tests">
+	<test name="TestRunner1">
+		<classes>
+
+			<class name="com.actitime.customerDataTest.CustomerDataTest" />
+
+		</classes>
+	</test>
+	<test name="TestRunner2">
+	<classes>
+
+		<class name="com.actitime.ReportDataTest.ReportDataTest" />
+
+	</classes> 
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

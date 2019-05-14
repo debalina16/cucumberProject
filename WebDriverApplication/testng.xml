@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="actitime">
+	<groups>
+		<run>
+			<include name="Smoke Test" />
+
+		</run>
+
+
+	</groups>
+	<test name="TestRunner1">
+		<classes>
+			<class name="com.actitime.UserDataTest.UserDataTest" />
+			<class name="com.actitime.customerDataTest.CustomerDataTest" />
+			<class name="com.actitime.ReportDataTest.ReportDataTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
