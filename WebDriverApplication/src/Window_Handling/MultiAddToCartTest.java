@@ -1,4 +1,4 @@
-package pack6;
+package Window_Handling;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -18,18 +18,18 @@ public class MultiAddToCartTest {
 		//close the popup for login
 		driver.findElement(By.xpath("//button[text()='✕']")).click();
 		
-		driver.findElement(By.name("q")).sendKeys("IPhone",Keys.ENTER);
+		driver.findElement(By.name("q")).sendKeys("IPhone 6s",Keys.ENTER);
 		
 		 Thread.sleep(5000);
 		 String parentID=driver.getWindowHandle();
 		 
-		driver.findElement(By.xpath("//div[text()='Apple iPhone 7 (Rose Gold, 32 GB)']")).click();
+		driver.findElement(By.xpath("//div[text()='Apple iPhone 6s Plus (Rose Gold, 32 GB)']")).click();
 		driver.findElement(By.xpath("//div[text()='Apple iPhone 6s (Space Grey, 32 GB)']")).click();
 		driver.findElement(By.xpath("//div[text()='Apple iPhone 6s (Rose Gold, 32 GB)']")).click();
 		
 		Thread.sleep(5000);
 		
-		String expPage="iPhone 7 : Buy Apple iPhone 7 (Rose Gold, 32 GB)";
+		String expPage="Apple iPhone 6s Plus ( 32 GB ROM, GB RAM ) Online at Best Price On Flipkart.com";
 		Set<String> set=driver.getWindowHandles();
 		Iterator<String> it=set.iterator();
 		

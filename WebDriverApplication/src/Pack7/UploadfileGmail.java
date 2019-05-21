@@ -10,8 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import com.sun.glass.events.KeyEvent;
-import com.sun.glass.ui.Clipboard;
-import com.sun.javafx.tk.Toolkit;
+
 
 public class UploadfileGmail {
 public static void main(String[] args) throws Throwable {
