@@ -2,8 +2,10 @@
  * 
  */
 package com.actitime.genericlib;
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.math3.random.HaltonSequenceGenerator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -36,6 +38,15 @@ public void waitForElementPresent(WebDriver driver,WebElement element) {
 	wait.until(ExpectedConditions.visibilityOf(element));
 }
 
+public HashMap<String,String> map=new HashMap();
+public HashMap<String,String> contants(){
+    map.put("url", "http://localhost/login.do");
+	map.put("os", "windows");
+	map.put("username", "admin");
+	map.put("pwd","manager");
+	map.put("browser", "firefox");
+	return map;
+}
 /**
  * @param driver
  * @param element
@@ -47,7 +58,7 @@ public void waitForFluentElementPresent(WebDriver driver,WebElement element) {
 
 
 /**
- * @param element
+ * {@link HaltonSequenceGenerator}@param element
  * @param option
  */
 public void select(WebElement element,String option) {

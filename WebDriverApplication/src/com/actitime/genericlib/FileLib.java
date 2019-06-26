@@ -4,6 +4,7 @@ package com.actitime.genericlib;
  * 
  */
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.Properties;
 import org.apache.poi.ss.usermodel.Cell;
@@ -68,4 +69,14 @@ public void setExcelData(String sheetName,int rowNum,int celNum,String data) thr
 	wb.write(fos);
 	wb.close();
  }
+
+public int getRowCount(String sheetName) throws Throwable {
+	FileInputStream fis=new FileInputStream("E:\\\\Java\\\\WebDriverApplication\\\\Data\\\\Tools.xlsx");
+	Workbook wb=WorkbookFactory.create(fis);
+	Sheet sh=wb.getSheet(sheetName);
+	int rowCount=sh.getLastRowNum();
+	return rowCount;
+	
+}
+
 }

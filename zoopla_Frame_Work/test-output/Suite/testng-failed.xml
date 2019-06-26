@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="zooplaTest">
+    <classes>
+      <class name="testClass.PriceDescTest"/>
+      <class name="testClass.SelectFifthPropertyTest"/>
+      <class name="testClass.AgentVerifyTest"/>
+    </classes>
+  </test> <!-- zooplaTest -->
+  <test name="zooplaTest(failed)">
+    <classes>
+      <class name="testClass.PriceDescTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBC"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- testClass.PriceDescTest -->
+      <class name="testClass.AgentVerifyTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="verifyAgent"/>
+          <include name="configBC"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- testClass.AgentVerifyTest -->
+      <class name="testClass.SelectFifthPropertyTest">
+        <methods>
+          <include name="loginWithoutPasswordTest"/>
+          <include name="configAM"/>
+          <include name="configBC"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- testClass.SelectFifthPropertyTest -->
+    </classes>
+  </test> <!-- zooplaTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
