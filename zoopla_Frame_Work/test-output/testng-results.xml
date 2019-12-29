@@ -1,206 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="75038" started-at="2019-06-26T11:44:49Z" finished-at="2019-06-26T11:46:04Z">
+  <suite name="Suite" duration-ms="73391" started-at="2019-07-28T19:30:58Z" finished-at="2019-07-28T19:32:11Z">
     <groups>
     </groups>
-    <test name="zooplaTest" duration-ms="75038" started-at="2019-06-26T11:44:49Z" finished-at="2019-06-26T11:46:04Z">
+    <test name="zooplaTest" duration-ms="73391" started-at="2019-07-28T19:30:58Z" finished-at="2019-07-28T19:32:11Z">
       <class name="testClass.SelectFifthPropertyTest">
-        <test-method status="PASS" signature="configBC()[pri:0, instance:testClass.SelectFifthPropertyTest@3cb5cdba]" name="configBC" is-config="true" duration-ms="2555" started-at="2019-06-26T17:15:24Z" finished-at="2019-06-26T17:15:27Z">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:testClass.SelectFifthPropertyTest@3cb5cdba]" name="configBC" is-config="true" duration-ms="2474" started-at="2019-07-29T01:01:23Z" finished-at="2019-07-29T01:01:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:testClass.SelectFifthPropertyTest@3cb5cdba]" name="configBM" is-config="true" duration-ms="6735" started-at="2019-06-26T17:15:27Z" finished-at="2019-06-26T17:15:33Z">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:testClass.SelectFifthPropertyTest@3cb5cdba]" name="configBM" is-config="true" duration-ms="3988" started-at="2019-07-29T01:01:26Z" finished-at="2019-07-29T01:01:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="FAIL" signature="loginWithoutPasswordTest()[pri:0, instance:testClass.SelectFifthPropertyTest@3cb5cdba]" name="loginWithoutPasswordTest" duration-ms="9695" started-at="2019-06-26T17:15:33Z" finished-at="2019-06-26T17:15:43Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a href="/for-sale/details/51891567?search_identifier=6323219902a84fc51cd97861178ef6ce" class="listing-results-price text-price">...</a> is not clickable at point (484, 636). Other element would receive the click: <h2 class="listing-results-attr">...</h2>
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DEBALINA', ip: '192.168.200.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Debalina\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64427}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: b786437e5d3927c322a151b4e63dd03f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/for-sale/details/51891567?search_identifier=6323219902a84fc51cd97861178ef6ce" class="listing-results-price text-price">...</a> is not clickable at point (484, 636). Other element would receive the click: <h2 class="listing-results-attr">...</h2>
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DEBALINA', ip: '192.168.200.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Debalina\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64427}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: b786437e5d3927c322a151b4e63dd03f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at ObjectRepo.SearchRepo.clickOn5thProperty(SearchRepo.java:55)
-	at testClass.SelectFifthPropertyTest.loginWithoutPasswordTest(SelectFifthPropertyTest.java:24)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method status="PASS" signature="loginWithoutPasswordTest()[pri:0, instance:testClass.SelectFifthPropertyTest@3cb5cdba]" name="loginWithoutPasswordTest" duration-ms="13759" started-at="2019-07-29T01:01:30Z" finished-at="2019-07-29T01:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutPasswordTest -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:testClass.SelectFifthPropertyTest@3cb5cdba]" name="configAM" is-config="true" duration-ms="0" started-at="2019-06-26T17:15:43Z" finished-at="2019-06-26T17:15:43Z">
+        <test-method status="PASS" signature="configAM()[pri:0, instance:testClass.SelectFifthPropertyTest@3cb5cdba]" name="configAM" is-config="true" duration-ms="2" started-at="2019-07-29T01:01:44Z" finished-at="2019-07-29T01:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:testClass.SelectFifthPropertyTest@3cb5cdba]" name="configAC" is-config="true" duration-ms="0" started-at="2019-06-26T17:15:43Z" finished-at="2019-06-26T17:15:43Z">
+        <test-method status="PASS" signature="configAC()[pri:0, instance:testClass.SelectFifthPropertyTest@3cb5cdba]" name="configAC" is-config="true" duration-ms="425" started-at="2019-07-29T01:01:44Z" finished-at="2019-07-29T01:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
       </class> <!-- testClass.SelectFifthPropertyTest -->
       <class name="testClass.PriceDescTest">
-        <test-method status="PASS" signature="configBC()[pri:0, instance:testClass.PriceDescTest@5a39699c]" name="configBC" is-config="true" duration-ms="4783" started-at="2019-06-26T17:14:49Z" finished-at="2019-06-26T17:14:53Z">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:testClass.PriceDescTest@5a39699c]" name="configBC" is-config="true" duration-ms="7678" started-at="2019-07-29T01:00:58Z" finished-at="2019-07-29T01:01:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:testClass.PriceDescTest@5a39699c]" name="configBM" is-config="true" duration-ms="9461" started-at="2019-06-26T17:14:53Z" finished-at="2019-06-26T17:15:03Z">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:testClass.PriceDescTest@5a39699c]" name="configBM" is-config="true" duration-ms="4751" started-at="2019-07-29T01:01:05Z" finished-at="2019-07-29T01:01:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="loginWithoutPasswordTest()[pri:0, instance:testClass.PriceDescTest@5a39699c]" name="loginWithoutPasswordTest" duration-ms="21219" started-at="2019-06-26T17:15:03Z" finished-at="2019-06-26T17:15:24Z">
+        <test-method status="PASS" signature="loginWithoutPasswordTest()[pri:0, instance:testClass.PriceDescTest@5a39699c]" name="loginWithoutPasswordTest" duration-ms="12800" started-at="2019-07-29T01:01:10Z" finished-at="2019-07-29T01:01:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutPasswordTest -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:testClass.PriceDescTest@5a39699c]" name="configAM" is-config="true" duration-ms="0" started-at="2019-06-26T17:15:24Z" finished-at="2019-06-26T17:15:24Z">
+        <test-method status="PASS" signature="configAM()[pri:0, instance:testClass.PriceDescTest@5a39699c]" name="configAM" is-config="true" duration-ms="0" started-at="2019-07-29T01:01:23Z" finished-at="2019-07-29T01:01:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:testClass.PriceDescTest@5a39699c]" name="configAC" is-config="true" duration-ms="0" started-at="2019-06-26T17:15:24Z" finished-at="2019-06-26T17:15:24Z">
+        <test-method status="PASS" signature="configAC()[pri:0, instance:testClass.PriceDescTest@5a39699c]" name="configAC" is-config="true" duration-ms="422" started-at="2019-07-29T01:01:23Z" finished-at="2019-07-29T01:01:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
       </class> <!-- testClass.PriceDescTest -->
       <class name="testClass.AgentVerifyTest">
-        <test-method status="PASS" signature="configBC()[pri:0, instance:testClass.AgentVerifyTest@56cbfb61]" test-instance-name="" name="configBC" is-config="true" duration-ms="2668" started-at="2019-06-26T17:15:43Z" finished-at="2019-06-26T17:15:46Z">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:testClass.AgentVerifyTest@56cbfb61]" test-instance-name="" name="configBC" is-config="true" duration-ms="2507" started-at="2019-07-29T01:01:44Z" finished-at="2019-07-29T01:01:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:testClass.AgentVerifyTest@56cbfb61]" test-instance-name="" name="configBM" is-config="true" duration-ms="7607" started-at="2019-06-26T17:15:46Z" finished-at="2019-06-26T17:15:53Z">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:testClass.AgentVerifyTest@56cbfb61]" test-instance-name="" name="configBM" is-config="true" duration-ms="3750" started-at="2019-07-29T01:01:47Z" finished-at="2019-07-29T01:01:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="FAIL" signature="verifyAgent()[pri:0, instance:testClass.AgentVerifyTest@56cbfb61]" test-instance-name="" name="verifyAgent" duration-ms="10255" started-at="2019-06-26T17:15:53Z" finished-at="2019-06-26T17:16:04Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a href="/for-sale/details/51891567?search_identifier=6323219902a84fc51cd97861178ef6ce" class="listing-results-price text-price">...</a> is not clickable at point (484, 636). Other element would receive the click: <h2 class="listing-results-attr">...</h2>
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DEBALINA', ip: '192.168.200.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Debalina\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64569}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 821e27fb1040faf71e7aa9dda65d1e7e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/for-sale/details/51891567?search_identifier=6323219902a84fc51cd97861178ef6ce" class="listing-results-price text-price">...</a> is not clickable at point (484, 636). Other element would receive the click: <h2 class="listing-results-attr">...</h2>
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DEBALINA', ip: '192.168.200.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Debalina\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64569}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 821e27fb1040faf71e7aa9dda65d1e7e
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at ObjectRepo.SearchRepo.clickOn5thProperty(SearchRepo.java:55)
-	at testClass.AgentVerifyTest.verifyAgent(AgentVerifyTest.java:27)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method status="PASS" signature="verifyAgent()[pri:0, instance:testClass.AgentVerifyTest@56cbfb61]" test-instance-name="" name="verifyAgent" duration-ms="20458" started-at="2019-07-29T01:01:50Z" finished-at="2019-07-29T01:02:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAgent -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:testClass.AgentVerifyTest@56cbfb61]" test-instance-name="" name="configAC" is-config="true" duration-ms="0" started-at="2019-06-26T17:16:04Z" finished-at="2019-06-26T17:16:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:testClass.AgentVerifyTest@56cbfb61]" test-instance-name="" name="configAM" is-config="true" duration-ms="0" started-at="2019-06-26T17:16:04Z" finished-at="2019-06-26T17:16:04Z">
+        <test-method status="PASS" signature="configAM()[pri:0, instance:testClass.AgentVerifyTest@56cbfb61]" test-instance-name="" name="configAM" is-config="true" duration-ms="0" started-at="2019-07-29T01:02:11Z" finished-at="2019-07-29T01:02:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:testClass.AgentVerifyTest@56cbfb61]" test-instance-name="" name="configAC" is-config="true" duration-ms="334" started-at="2019-07-29T01:02:11Z" finished-at="2019-07-29T01:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
       </class> <!-- testClass.AgentVerifyTest -->
     </test> <!-- zooplaTest -->
   </suite> <!-- Suite -->

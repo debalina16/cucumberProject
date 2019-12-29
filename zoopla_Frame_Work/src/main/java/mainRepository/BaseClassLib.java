@@ -58,7 +58,7 @@ public class BaseClassLib {
 	@AfterClass
 	public void configAC() {
 		/* close a browser */
-		//driver.close();
+		driver.close();
 		System.out.println("===========Close a Browser===========");
 	}
 

@@ -8,34 +8,4 @@
       <class name="testClass.AgentVerifyTest"/>
     </classes>
   </test> <!-- zooplaTest -->
-  <test name="zooplaTest(failed)">
-    <classes>
-      <class name="testClass.PriceDescTest">
-        <methods>
-          <include name="configAM"/>
-          <include name="configBC"/>
-          <include name="configAC"/>
-          <include name="configBM"/>
-        </methods>
-      </class> <!-- testClass.PriceDescTest -->
-      <class name="testClass.AgentVerifyTest">
-        <methods>
-          <include name="configAM"/>
-          <include name="verifyAgent"/>
-          <include name="configBC"/>
-          <include name="configAC"/>
-          <include name="configBM"/>
-        </methods>
-      </class> <!-- testClass.AgentVerifyTest -->
-      <class name="testClass.SelectFifthPropertyTest">
-        <methods>
-          <include name="loginWithoutPasswordTest"/>
-          <include name="configAM"/>
-          <include name="configBC"/>
-          <include name="configAC"/>
-          <include name="configBM"/>
-        </methods>
-      </class> <!-- testClass.SelectFifthPropertyTest -->
-    </classes>
-  </test> <!-- zooplaTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
