@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="136.240423">
+<testcase classname="Login user" name="Successfully Login with Valid Credentials without parameter" time="27.279326">
+<system-out><![CDATA[Given User Launch Chrome Browser............................................passed
+When User open URL "https://admin-demo.nopcommerce.com/login"...............passed
+And User enters register username and password..............................passed
+And click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on Logout link..............................................passed
+Then Page Title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login user" name="Successfully Login with Valid Credentials with parameter" time="25.517852">
+<system-out><![CDATA[Given User Launch Chrome Browser............................................passed
+When User open URL "https://admin-demo.nopcommerce.com/login"...............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on Logout link..............................................passed
+Then Page Title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login user" name="Login Data Driven" time="24.963663">
+<system-out><![CDATA[Given User Launch Chrome Browser............................................passed
+When User open URL "https://admin-demo.nopcommerce.com/login"...............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on Logout link..............................................passed
+Then Page Title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login user" name="Login Data Driven 2" time="9.791999">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at stepDefinitions.Steps.page_Title_should_be(Steps.java:73)&#13;&#10;&#9;at ✽.Page Title should be &quot;Dashboard / nopCommerce administration&quot;(./Features/Login.feature:28)&#13;&#10;"><![CDATA[Given User Launch Chrome Browser............................................passed
+When User open URL "https://admin-demo.nopcommerce.com/login"...............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin123"...passed
+And click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........failed
+When User click on Logout link..............................................skipped
+Then Page Title should be "Your store. Login"...............................skipped
+And close browser...........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinitions.Steps.page_Title_should_be(Steps.java:73)
+	at ✽.Page Title should be "Dashboard / nopCommerce administration"(./Features/Login.feature:28)
+]]></failure>
+</testcase>
+<testcase classname="Login user" name="Successfully Login with Valid Credentials with Datatable single parameter" time="26.208129">
+<system-out><![CDATA[Given User Launch Chrome Browser............................................passed
+When User open URL "https://admin-demo.nopcommerce.com/login"...............passed
+And User enters registerd username and password as a parameter..............passed
+And click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on Logout link..............................................passed
+Then Page Title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login user" name="Successfully Login with Valid Credentials with Datatable single parameter 2" time="22.479454">
+<system-out><![CDATA[Given User Launch Chrome Browser............................................passed
+When User open URL "https://admin-demo.nopcommerce.com/login"...............passed
+And User enters registerd username and password as a parameter for multiple parameter testing.passed
+And click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on Logout link..............................................passed
+Then Page Title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
