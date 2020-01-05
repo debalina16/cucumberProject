@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: .&#x2F;Features&#x2F;Login.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User Launch Chrome Browser (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User open nopcommerce url (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User enters register username and password (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on Login (PASSED : 11s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Page Title should be &quot;Dashboard &#x2F; nopCommerce administration&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User click on Logout link (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Page Title should be &quot;Your store. Login&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (PASSED : 1s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28085" started-at="2020-01-05T15:24:56Z" finished-at="2020-01-05T15:25:24Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRun.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRun@14bf9759]" name="feature" class="testRunner.TestRun"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="28085" started-at="2020-01-05T15:24:56Z" finished-at="2020-01-05T15:25:24Z">
+      <class name="testRunner.TestRun">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRun@14bf9759]" name="setUpClass" is-config="true" duration-ms="573" started-at="2020-01-05T20:54:56Z" finished-at="2020-01-05T20:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRun@14bf9759]" name="feature" duration-ms="27252" started-at="2020-01-05T20:54:57Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-01-05T20:55:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: .&#x2F;Features&#x2F;Login.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User Launch Chrome Browser (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User open nopcommerce url (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User enters register username and password (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on Login (PASSED : 11s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Page Title should be &quot;Dashboard &#x2F; nopCommerce administration&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User click on Logout link (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Page Title should be &quot;Your store. Login&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (PASSED : 1s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRun@14bf9759]" name="tearDownClass" is-config="true" duration-ms="156" started-at="2020-01-05T20:55:24Z" finished-at="2020-01-05T20:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

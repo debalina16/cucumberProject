@@ -1,0 +1,7 @@
+2020-01-05 20:55:02,100  INFO [main] Steps:46 - =========Launch a Browser=========
+2020-01-05 20:55:07,104  INFO [main] Steps:53 - =========Open nopcommerce application=========
+2020-01-05 20:55:07,689  INFO [main] Steps:60 - =========Provide Credentials=========
+2020-01-05 20:55:19,444  INFO [main] Steps:66 - =========Logout Application=========
+2020-01-05 20:55:19,607  INFO [main] Steps:77 - =========Verify Page Title=========
+2020-01-05 20:55:23,743  INFO [main] Steps:77 - =========Verify Page Title=========
+2020-01-05 20:55:24,811  INFO [main] Steps:89 - =========Close a Browser=========
